@@ -1,17 +1,32 @@
 {
+  "homepage": "https://github.com/mohammed-muddassir/Video-Chat-Application",
   "name": "vchatapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.2.4",
+    "@mui/material": "^5.2.4",
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "express": "^4.17.1",
+    "peer": "^0.6.1",
     "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "simple-peer": "^9.11.0",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0",
+    "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "watch": "nodemon ./index.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
