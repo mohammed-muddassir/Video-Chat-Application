@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mohammed-muddassir/Video-Chat-Application/static/css/main.3ee74791.chunk.css",
+    "main.js": "/mohammed-muddassir/Video-Chat-Application/static/js/main.42971295.chunk.js",
+    "main.js.map": "/mohammed-muddassir/Video-Chat-Application/static/js/main.42971295.chunk.js.map",
+    "runtime-main.js": "/mohammed-muddassir/Video-Chat-Application/static/js/runtime-main.e948ae57.js",
+    "runtime-main.js.map": "/mohammed-muddassir/Video-Chat-Application/static/js/runtime-main.e948ae57.js.map",
+    "static/js/2.7d8c9fcb.chunk.js": "/mohammed-muddassir/Video-Chat-Application/static/js/2.7d8c9fcb.chunk.js",
+    "static/js/2.7d8c9fcb.chunk.js.map": "/mohammed-muddassir/Video-Chat-Application/static/js/2.7d8c9fcb.chunk.js.map",
+    "static/js/3.39513278.chunk.js": "/mohammed-muddassir/Video-Chat-Application/static/js/3.39513278.chunk.js",
+    "static/js/3.39513278.chunk.js.map": "/mohammed-muddassir/Video-Chat-Application/static/js/3.39513278.chunk.js.map",
+    "index.html": "/mohammed-muddassir/Video-Chat-Application/index.html",
+    "static/css/main.3ee74791.chunk.css.map": "/mohammed-muddassir/Video-Chat-Application/static/css/main.3ee74791.chunk.css.map",
+    "static/js/2.7d8c9fcb.chunk.js.LICENSE.txt": "/mohammed-muddassir/Video-Chat-Application/static/js/2.7d8c9fcb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e948ae57.js",
+    "static/js/2.7d8c9fcb.chunk.js",
+    "static/css/main.3ee74791.chunk.css",
+    "static/js/main.42971295.chunk.js"
+  ]
+}
