@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Video-Chat-Application/public/static/css/main.3ee74791.chunk.css",
-    "main.js": "/Video-Chat-Application/public/static/js/main.42971295.chunk.js",
-    "main.js.map": "/Video-Chat-Application/public/static/js/main.42971295.chunk.js.map",
-    "runtime-main.js": "/Video-Chat-Application/public/static/js/runtime-main.fce4f58c.js",
-    "runtime-main.js.map": "/Video-Chat-Application/public/static/js/runtime-main.fce4f58c.js.map",
-    "static/js/2.d346ef21.chunk.js": "/Video-Chat-Application/public/static/js/2.d346ef21.chunk.js",
-    "static/js/2.d346ef21.chunk.js.map": "/Video-Chat-Application/public/static/js/2.d346ef21.chunk.js.map",
-    "static/js/3.39513278.chunk.js": "/Video-Chat-Application/public/static/js/3.39513278.chunk.js",
-    "static/js/3.39513278.chunk.js.map": "/Video-Chat-Application/public/static/js/3.39513278.chunk.js.map",
-    "index.html": "/Video-Chat-Application/public/index.html",
-    "static/css/main.3ee74791.chunk.css.map": "/Video-Chat-Application/public/static/css/main.3ee74791.chunk.css.map",
-    "static/js/2.d346ef21.chunk.js.LICENSE.txt": "/Video-Chat-Application/public/static/js/2.d346ef21.chunk.js.LICENSE.txt"
+    "main.css": "/Video-Chat-Application/public/index.html/static/css/main.3ee74791.chunk.css",
+    "main.js": "/Video-Chat-Application/public/index.html/static/js/main.42971295.chunk.js",
+    "main.js.map": "/Video-Chat-Application/public/index.html/static/js/main.42971295.chunk.js.map",
+    "runtime-main.js": "/Video-Chat-Application/public/index.html/static/js/runtime-main.2ac2294d.js",
+    "runtime-main.js.map": "/Video-Chat-Application/public/index.html/static/js/runtime-main.2ac2294d.js.map",
+    "static/js/2.aa6940e0.chunk.js": "/Video-Chat-Application/public/index.html/static/js/2.aa6940e0.chunk.js",
+    "static/js/2.aa6940e0.chunk.js.map": "/Video-Chat-Application/public/index.html/static/js/2.aa6940e0.chunk.js.map",
+    "static/js/3.39513278.chunk.js": "/Video-Chat-Application/public/index.html/static/js/3.39513278.chunk.js",
+    "static/js/3.39513278.chunk.js.map": "/Video-Chat-Application/public/index.html/static/js/3.39513278.chunk.js.map",
+    "index.html": "/Video-Chat-Application/public/index.html/index.html",
+    "static/css/main.3ee74791.chunk.css.map": "/Video-Chat-Application/public/index.html/static/css/main.3ee74791.chunk.css.map",
+    "static/js/2.aa6940e0.chunk.js.LICENSE.txt": "/Video-Chat-Application/public/index.html/static/js/2.aa6940e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fce4f58c.js",
-    "static/js/2.d346ef21.chunk.js",
+    "static/js/runtime-main.2ac2294d.js",
+    "static/js/2.aa6940e0.chunk.js",
     "static/css/main.3ee74791.chunk.css",
     "static/js/main.42971295.chunk.js"
   ]
