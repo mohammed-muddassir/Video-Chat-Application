@@ -141,6 +141,7 @@ function App() {
               </div>
               <div className="myId">
                     {/* {!online?:<div></div>} */}
+                   
                       <div id="permission" >
                             <Button id="permit" onClick={askPermission} startIcon={<VideoCallIcon fontSize="large"/> }/>
                       </div>
@@ -157,7 +158,7 @@ function App() {
                           Copy ID
                         </Button>
                       </CopyToClipboard>
-                      <div>dfjdk</div>
+                     
                       
 
                       <TextField
@@ -169,6 +170,7 @@ function App() {
                       />
 
                       <div style={{display:"flex"}}>
+                      <p>{myId}</p>
                       <TextField
                         id="filled-basic"
                         label="Room"
