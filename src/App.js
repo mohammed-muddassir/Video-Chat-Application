@@ -157,7 +157,9 @@ function App() {
                         <Button variant="contained" color="primary" startIcon={<AssignmentIcon fontSize="large" />}>
                           Copy ID
                         </Button>
+                        <div>{myId}</div>
                       </CopyToClipboard>
+                      
                      
                       
 
