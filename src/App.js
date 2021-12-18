@@ -157,7 +157,7 @@ function App() {
                           Copy ID
                         </Button>
                       </CopyToClipboard>
-                      <div>{myId}</div>
+                      <div>dfjdk</div>
                       
 
                       <TextField
