@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Video-Chat-Application/static/css/main.3ee74791.chunk.css",
-    "main.js": "/Video-Chat-Application/static/js/main.711c84b1.chunk.js",
-    "main.js.map": "/Video-Chat-Application/static/js/main.711c84b1.chunk.js.map",
+    "main.js": "/Video-Chat-Application/static/js/main.12e009e0.chunk.js",
+    "main.js.map": "/Video-Chat-Application/static/js/main.12e009e0.chunk.js.map",
     "runtime-main.js": "/Video-Chat-Application/static/js/runtime-main.8bc60fef.js",
     "runtime-main.js.map": "/Video-Chat-Application/static/js/runtime-main.8bc60fef.js.map",
     "static/js/2.9b13d0a4.chunk.js": "/Video-Chat-Application/static/js/2.9b13d0a4.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8bc60fef.js",
     "static/js/2.9b13d0a4.chunk.js",
     "static/css/main.3ee74791.chunk.css",
-    "static/js/main.711c84b1.chunk.js"
+    "static/js/main.12e009e0.chunk.js"
   ]
 }
