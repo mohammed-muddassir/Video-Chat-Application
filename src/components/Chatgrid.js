@@ -34,8 +34,7 @@ function Chatgrid({socket,name,room}) {
     },[socket])
     return (
         <div id="chat-container">
-           {/* <div id="chat-box"> */}
-                {/* <div> */}
+         
                 {msgList.map((msg)=>{
 
                    if(msg.author===author){
@@ -49,13 +48,9 @@ function Chatgrid({socket,name,room}) {
                             </div>
 
                    }
-                   {/* return  <div id={msg.author===author?"user-msg":"peer-msg"}>
-                                 <h3 >{msg.message}</h3>
-                            </div> */}
+                   
                 })}
-                {/* </div> */}
-            
-            {/* </div> */}
+               
             <div id="chat-footer">
                 <input id="inp" placeholder="Message" onChange={(event)=>{setMessage(event.target.value)}}></input>
                 {message!==""&&<Button onClick={sendMessage} startIcon={<Send  fontSize="medium" id="send" ></Send>}></Button>}
