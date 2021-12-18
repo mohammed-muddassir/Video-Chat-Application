@@ -2,9 +2,7 @@ const express=require('express');
 const app=express();
 const http=require('http');
 const server=http.createServer(app);
-// const {Server}=require('socket.io');
-// // const io=new Server(server);
-// const server = http.createServer(app)
+
 const io = require("socket.io")(server, {
 	cors: {
 		origin: "http://localhost:3000",
@@ -14,9 +12,7 @@ const io = require("socket.io")(server, {
 
 
 app.use(express.static('public'));
-// app.get('/',(req,res)=>{
-    
-// });
+
 io.on('connection',socket=>{
     console.log("user connected");
     socket.emit('me',socket.id); //using useEffecct we connect at inital loading...

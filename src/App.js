@@ -157,7 +157,7 @@ function App() {
                         <Button variant="contained" color="primary" startIcon={<AssignmentIcon fontSize="large" />}>
                           Copy ID
                         </Button>
-                        <div>{myId}</div>
+                        
                       </CopyToClipboard>
                       
                      
@@ -172,7 +172,7 @@ function App() {
                       />
 
                       <div style={{display:"flex"}}>
-                      <p>{myId}</p>
+                     
                       <TextField
                         id="filled-basic"
                         label="Room"
