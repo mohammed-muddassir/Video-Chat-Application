@@ -10,6 +10,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard"
 import Peer from "simple-peer"
 import io from "socket.io-client"
 import "./App.css"
+const crypto = require("crypto");
 
 const socket=io.connect("http://localhost:3002")
 
@@ -33,8 +34,12 @@ function App() {
   useEffect(()=>{
     setStatus(true);
     socket.on('me',(id)=>{
-      setId(id);
+      
+      const ide = crypto.randomBytes(16).toString("hex");
+      setId(ide);
+
     })
+    
     socket.on("callUser",(data)=>{
       setReceivingcall(true);
       setCaller(data.from);
@@ -119,6 +124,9 @@ function App() {
     }
 
   }
+  const copy=()=>{
+    navigator.clipboard.writeText(myId);
+  }
   
  
 
@@ -153,13 +161,13 @@ function App() {
                         onChange={(e) => setName(e.target.value)}
                         style={{ marginBottom: "20px" }}
                       />
-                      <CopyToClipboard text={myId} style={{ marginBottom: "2rem" }}>
-                        <Button variant="contained" color="primary" startIcon={<AssignmentIcon fontSize="large" />}>
+                     
+                        <Button variant="contained" color="primary" startIcon={<AssignmentIcon fontSize="large" />} onClick={copy}>
                           Copy ID
                         </Button>
                         
-                      </CopyToClipboard>
-                      <p>{myId}</p>
+                    
+                      
                       
                      
                       
