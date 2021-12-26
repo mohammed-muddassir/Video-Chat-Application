@@ -153,7 +153,12 @@ function App() {
                         onChange={(e) => setName(e.target.value)}
                         style={{ marginBottom: "20px" }}
                       />
-                     
+                      <CopyToClipboard text={myId} style={{ marginBottom: "2rem" }}>
+                        <Button variant="contained" color="primary" startIcon={<AssignmentIcon fontSize="large" />}>
+                          Copy ID
+                        </Button>
+                        
+                      </CopyToClipboard>
                       <p>{myId}</p>
                       
                      
