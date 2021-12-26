@@ -153,12 +153,8 @@ function App() {
                         onChange={(e) => setName(e.target.value)}
                         style={{ marginBottom: "20px" }}
                       />
-                      <CopyToClipboard text={myId} style={{ marginBottom: "2rem" }}>
-                        <Button variant="contained" color="primary" startIcon={<AssignmentIcon fontSize="large" />}>
-                          Copy ID
-                        </Button>
-                        
-                      </CopyToClipboard>
+                     
+                      <p>{myId}</p>
                       
                      
                       
@@ -182,7 +178,7 @@ function App() {
                         style={{ marginBottom: "20px" ,marginTop:"10px"}}
                       />
                       <Button onClick={()=>join(room)} id="join" color="red">join</Button>
-                      <p>{myId}</p>
+                     
 
                       </div>
                      
