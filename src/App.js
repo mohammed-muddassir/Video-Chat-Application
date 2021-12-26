@@ -6,7 +6,6 @@ import PhoneIcon from "@material-ui/icons/Phone"
 import VideoCallIcon from '@material-ui/icons/VideoCall';
 import Chatgrid from "./components/Chatgrid"
 import React, { useEffect, useRef, useState } from "react"
-import { CopyToClipboard } from "react-copy-to-clipboard"
 import Peer from "simple-peer"
 import io from "socket.io-client"
 import "./App.css"
