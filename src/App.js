@@ -182,6 +182,7 @@ function App() {
                         style={{ marginBottom: "20px" ,marginTop:"10px"}}
                       />
                       <Button onClick={()=>join(room)} id="join" color="red">join</Button>
+                      <p>{myId}</p>
 
                       </div>
                      
