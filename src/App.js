@@ -15,6 +15,7 @@ const socket=io.connect("http://localhost:3002")
 
 function App() {
   const [myId,setId]=useState("");
+  const [callerId,setCallerID]=useState("");
   const [online,setStatus]=useState(true);
   const [stream,setStream]=useState();
   const [recievingCall,setReceivingcall]=useState(false);
@@ -33,9 +34,9 @@ function App() {
   useEffect(()=>{
     setStatus(true);
     socket.on('me',(id)=>{
-      
+      setId(id);
       const ide = crypto.randomBytes(16).toString("hex");
-      setId(ide);
+      setCallerID(ide)
 
     })
     
@@ -124,7 +125,7 @@ function App() {
 
   }
   const copy=()=>{
-    navigator.clipboard.writeText(myId);
+    navigator.clipboard.writeText(callerId);
   }
   
  
